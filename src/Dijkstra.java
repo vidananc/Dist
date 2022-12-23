@@ -42,7 +42,7 @@ public class Dijkstra
         }
         loc = n - 2;
     }
-    private void heapSort()
+    private void heapSort()//堆排，优先队列，进行贪心选择
     {
         int currentLoc, bigLoc;
         boolean isChanged;
